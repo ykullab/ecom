@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="images/logo1.png" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>FaceRam Store</title>
+  </head>
+  <body>
+    <!-- modal box -->
+    <input type="checkbox" id="show-hide-forms" hidden />
+    <div class="forms-wrapper">
+      <label for="show-hide-forms" class="x-btn">&#10005;</label>
+      <input type="checkbox" id="show-form" hidden />
+      <div class="show-btns-wrapper">
+        <label for="show-form" class="show-form-btn show-signup-form"
+          >Sign Up</label
+        >
+        <label for="show-form" class="show-form-btn show-login-form"
+          >Log In</label
+        >
+      </div>
+
+      <form class="signup-form">
+        <h3 class="form-heading">Sign Up</h3>
+        <div class="fullname-inputs-wrapper">
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Second Name" />
+        </div>
+        <input type="text" class="form-input" placeholder="Username" />
+        <input type="email" class="form-input" placeholder="Email Address" />
+        <input type="password" class="form-input" placeholder="Password" />
+        <input type="submit" value="SIGN UP" class="form-btn" />
+      </form>
+
+      <form class="login-form">
+        <h3 class="form-heading">Log In</h3>
+        <input type="email" class="form-input" placeholder="Email Address" />
+        <input type="password" class="form-input" placeholder="Password" />
+        <input type="submit" value="LOG IN" class="form-btn" />
+      </form>
+    </div>
+    <!-- end of modal box -->
+
+    <div class="container">
+      <img src="images/logo1.png" class="logo" alt="" />
+      <!-- navbar -->
+      <ul class="social-icons">
+        <li class="social-icon-item">
+          <a href="#" class="social-icon-link"
+            ><i class="fab fa-facebook-square social-icon"></i
+          ></a>
+        </li>
+        <li class="social-icon-item">
+          <a href="#" class="social-icon-link"
+            ><i class="fab fa-linkedin social-icon"></i
+          ></a>
+        </li>
+        <li class="social-icon-item">
+          <a href="#" class="social-icon-link"
+            ><i class="fab fa-twitter-square social-icon"></i
+          ></a>
+        </li>
+        <li class="social-icon-item">
+          <a href="#" class="social-icon-link"
+            ><i class="fab fa-instagram social-icon"></i
+          ></a>
+        </li>
+      </ul>
+
+      <nav class="first-nav">
+        <ul class="first-nav-list">
+          <li class="first-nav-item">
+            <a href="#" class="first-nav-link"
+              ><label for="show-hide-forms"
+                ><i class="fas fa-sign-in-alt"></i>Sign Up / Log In</label
+              ></a
+            >
+          </li>
+          <li class="first-nav-item">
+            <a href="#" class="first-nav-link"
+              ><i class="fas fa-shopping-cart"></i>Cart(<span>2 Items</span>)</a
+            >
+          </li>
+          <li class="first-nav-item">
+            <a href="#" class="first-nav-link"
+              ><i class="fas fa-truck"></i>Order Now</a
+            >
+          </li>
+          <li class="first-nav-item">
+            <a href="#" class="first-nav-link"
+              ><i class="fas fa-heart"></i>Wish List</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="search">
+        <form class="search-form">
+          <input type="text" class="search-input" placeholder="Search" />
+          <button class="search-btn"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+
+      <nav class="second-nav">
+        <ul class="second-nav-list">
+          <li class="second-nav-item">
+            <a href="#" class="second-nav-link">accessoires</a>
+            <div class="dropdown">
+              <ul class="dropdown-first-list">
+                <li class="dropdown-list-item">
+                  <a href="#" class="dropdown-list-link">Clothes</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a href="#" class="dropdown-list-link">rings</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a href="#" class="dropdown-list-link">Watches</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a href="#" class="dropdown-list-link">shoes</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a href="#" class="dropdown-list-link">Chairs</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a href="#" class="dropdown-list-link">Benches & Ottomans</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a href="#" class="dropdown-list-link">Dressers & Chests</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a href="#" class="dropdown-list-link">Dining Tables</a>
+                </li>
+              </ul>
+              <ul class="dropdown-second-list">
+                <li class="dropdown-list-item">
+                  <a href="#" class="dropdown-list-link">Lampert</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a href="#" class="dropdown-list-link">Baxter</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a href="#" class="dropdown-list-link">Channing</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a href="#" class="dropdown-list-link">Maxime</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a href="#" class="dropdown-list-link">Talitha</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a href="#" class="dropdown-list-link">Rider</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a href="#" class="dropdown-list-link">Goldfinger</a>
+                </li>
+              </ul>
+              <img src="images/dropdown-image.jpg" class="dropdown-image" />
+            </div>
+          </li>
+          <li class="second-nav-item">
+            <a href="#" class="second-nav-link">Clothes</a>
+          </li>
+          <li class="second-nav-item">
+            <a href="#" class="second-nav-link">rings</a>
+          </li>
+          <li class="second-nav-item">
+            <a href="#" class="second-nav-link">Outdoor</a>
+          </li>
+          <li class="second-nav-item">
+            <a href="#" class="second-nav-link">Lighting</a>
+          </li>
+          <li class="second-nav-item">
+            <a href="#" class="second-nav-link">Bed & Bath</a>
+          </li>
+          <li class="second-nav-item">
+            <a href="#" class="second-nav-link">Window</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- end of navbar -->
+
+      <!-- banner -->
+      <section class="banner">
+        <div class="banner-content">
+          <h1 class="banner-heading">Great Sale</h1>
+          <button class="banner-btn">
+            <span class="banner-btn-text-one">Shop Now</span>
+            <span class="banner-btn-text-two">It's Interesting</span>
+          </button>
+        </div>
+
+        <div class="slideshow">
+          <button class="slide-btn slide-btn-1"></button>
+          <button class="slide-btn slide-btn-2"></button>
+          <button class="slide-btn slide-btn-3"></button>
+          <button class="slide-btn slide-btn-4"></button>
+          <div class="slideshow-wrapper">
+            <div class="slide">
+              <img src="images/phone1.jpg" />
+            </div>
+            <div class="slide">
+              <img src="images/phone2.jpg" />
+            </div>
+            <div class="slide">
+              <img src="images/kitchen.jpg" />
+            </div>
+            <div class="slide">
+              <img src="images/water.jpg" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of banner -->
+
+      <!-- bestselling furniture -->
+      <section class="product">
+        <p class="product-header">Our Products</p>
+
+        <div class="product-cards">
+          <div class="product-card">
+            <img src="images/1.jpg" class="product-img" />
+            <h2 class="product-heading">Swatch</h2>
+            <p class="product-paragraph">price: $ 2,000</p>
+            <button class="product-btn">Buy Now</button>
+          </div>
+          <div class="product-card">
+            <img src="images/2.jpg" class="product-img" />
+            <h2 class="product-heading">Rolex</h2>
+            <p class="product-paragraph">price: $ 1000</p>
+            <button class="product-btn">Buy Now</button>
+          </div>
+          <div class="product-card">
+            <img
+              src="images/bestsellig-furniture-sofa.jpg"
+              class="product-img"
+            />
+            <h2 class="product-heading">Diesel</h2>
+            <p class="product-paragraph">price: $ 1,500</p>
+            <button class="product-btn">Buy Now</button>
+          </div>
+          <div class="product-card">
+            <img
+              src="images/bestsellig-furniture-table.jpg"
+              class="product-img"
+            />
+            <h2 class="product-heading">Gucci</h2>
+            <p class="product-paragraph">price: $ 3,500</p>
+            <button class="product-btn">Buy Now</button>
+          </div>
+          <div class="product-card">
+            <img
+              src="images/bestsellig-furniture-bed.jpg"
+              class="product-img"
+            />
+            <h2 class="product-heading">Nike</h2>
+            <p class="product-paragraph">price: $ 1,500</p>
+            <button class="product-btn">Buy Now</button>
+          </div>
+          <div class="product-card">
+            <img
+              src="images/bestsellig-furniture-chairs.jpg"
+              class="product-img"
+            />
+            <h2 class="product-heading">Gucci</h2>
+            <p class="product-paragraph">price: $ 1,000</p>
+            <button class="product-btn">Buy Now</button>
+          </div>
+          <div class="product-card">
+            <img src="images/k2.jpg" class="product-img" />
+            <h2 class="product-heading">Boos</h2>
+            <p class="product-paragraph">price: $ 1,000</p>
+            <button class="product-btn">Buy Now</button>
+          </div>
+          <div class="product-card">
+            <img src="images/shose1.jpg" class="product-img" />
+            <h2 class="product-heading">versace</h2>
+            <p class="product-paragraph">price: $ 1,000</p>
+            <button class="product-btn">Buy Now</button>
+          </div>
+          <div class="product-card">
+            <img src="images/shose2.jpg" class="product-img" />
+            <h2 class="product-heading">versace</h2>
+            <p class="product-paragraph">price: $ 1,000</p>
+            <button class="product-btn">Buy Now</button>
+          </div>
+          <div class="product-card">
+            <img src="images/k1.jpg" class="product-img" />
+            <h2 class="product-heading">Boos</h2>
+            <p class="product-paragraph">price: $ 1,000</p>
+            <button class="product-btn">Buy Now</button>
+          </div>
+        </div>
+      </section>
+      <!-- end of bestselling furniture -->
+
+      <!-- contact -->
+      <section class="contact">
+        <h1 class="contact-heading">contact us</h1>
+        <ul class="contact-list contact-list1">
+          <li class="contact-item"><a href="#">Contact1</a></li>
+          <li class="contact-item"><a href="#">Contact1</a></li>
+          <li class="contact-item"><a href="#">Contact1</a></li>
+          <li class="contact-item"><a href="#">Contact1</a></li>
+          <li class="contact-item"><a href="#">Contact1</a></li>
+        </ul>
+
+        <ul class="contact-list contact-list2">
+          <li class="contact-item"><a href="#">Contact1</a></li>
+          <li class="contact-item"><a href="#">Contact1</a></li>
+          <li class="contact-item"><a href="#">Contact1</a></li>
+          <li class="contact-item"><a href="#">Contact1</a></li>
+          <li class="contact-item"><a href="#">Contact1</a></li>
+        </ul>
+
+        <ul class="contact-list contact-list3">
+          <p>Our Address :</p>
+          <img src="images/R.jpg" alt="" srcset="" />
+        </ul>
+        <img src="images/Payment-Methods.png" class="pay-img" />
+      </section>
+      <!-- end of contact -->
+
+      <!-- footer -->
+      <footer class="footer"></footer>
+      <!-- end of footer -->
+    </div>
+  </body>
+</html>
