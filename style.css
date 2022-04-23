@@ -1034,4 +1034,9 @@ body {
   .forms-wrapper form {
     width: 30rem;
   }
+
+  .product-card {
+    width: 70%;
+    margin: auto;
+  }
 }
