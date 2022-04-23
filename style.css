@@ -828,22 +828,34 @@ body {
     grid-template-columns:
       minmax(4rem, 1fr) repeat(8, minmax(min-content, 16rem))
       minmax(4rem, 1fr);
+    grid-template-rows: repeat(4, min-content) 70vh repeat(5, min-content);
   }
+
   .logo {
-    grid-column: 5/ 7;
-    margin-top: -1.5rem;
-    width: 135%;
+    grid-column: 2/ 10;
+    grid-row: 1/2;
+    margin: 0 auto;
+    width: 100%;
   }
+
   .search-form {
     margin-top: 2rem;
+    grid-row: 3 / 4;
   }
   .social-icons {
     grid-column: 2 / 5;
-    grid-row: 2 / 3;
+    grid-row: 2/3;
   }
 
   .first-nav {
     grid-column: 2 / 10;
+    grid-row: 3/4;
+  }
+  .second-nav {
+    grid-row: 4/5;
+  }
+  .banner {
+    grid-row: 5/6;
   }
 
   .banner-heading {
@@ -882,12 +894,12 @@ body {
     grid-template-columns:
       minmax(2rem, 1fr) repeat(8, minmax(min-content, 16rem))
       minmax(2rem, 1fr);
-    grid-template-rows: repeat(3, min-content) 50vh repeat(5, min-content);
+    grid-template-rows: repeat(4, min-content) 50vh repeat(5, min-content);
   }
   .logo {
-    grid-column: 5/ 7;
-    margin: -0.5rem -3rem;
-    width: 200%;
+    grid-column: 2/10;
+    margin: 0 auto;
+    width: 100%;
   }
 
   .social-icons {
@@ -958,11 +970,12 @@ body {
     grid-template-columns:
       minmax(1rem, 1fr) repeat(8, minmax(min-content, 16rem))
       minmax(1rem, 1fr);
+    grid-template-rows: repeat(4, min-content) 30vh repeat(5, min-content);
   }
   .logo {
-    grid-column: 5/ 7;
-    margin: 1.5rem -1rem;
-    width: 200%;
+    grid-column: 2/ 10;
+    margin: 0 auto;
+    width: 100%;
   }
 
   .first-nav-list {
