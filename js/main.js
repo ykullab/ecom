@@ -1,5 +1,6 @@
 $(function () {
-  $("a").on("click", function (e) {
-    e.preventDefault();
-  });
+  alert("hello");
+  //   $("a").on("click", function (e) {
+  //     e.preventDefault();
+  //   });
 });
